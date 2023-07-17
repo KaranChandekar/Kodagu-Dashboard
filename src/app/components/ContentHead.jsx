@@ -12,7 +12,7 @@ const ContentHead = ({ title, color }) => {
         </h3>
         <IconBtn
           icon={5}
-          className="w-[25px] h-[25px] mr-6 text-xs font-extrabold text-gray-blue-60"
+          className="!w-[25px] !h-[25px] mr-6 text-xs font-extrabold text-gray-blue-60"
         />
       </div>
       <div className="flex items-center gap-2">

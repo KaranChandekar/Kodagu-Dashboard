@@ -12,7 +12,11 @@ const HeroHead = () => {
     <div className="px-6 pt-6 flex justify-between gap-16 border-b-2 border-gray-blue-95">
       <nav className="flex justify-between gap-5">
         <HeroNavLink icon={<PlaylistAddCheck />} title="List Tasks" />
-        <HeroNavLink icon={<Dashboard />} title="Boards" />
+        <HeroNavLink
+          icon={<Dashboard active="true" />}
+          title="Boards"
+          active="true"
+        />
         <HeroNavLink icon={<Event />} title="Calendar" />
         <HeroNavLink icon={<Sort />} title="Gantt" />
         <HeroNavLink icon={<Menu />} title="Timeline" />

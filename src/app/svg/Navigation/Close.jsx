@@ -1,4 +1,4 @@
-function Close() {
+function Close({ className, onclick }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +6,8 @@ function Close() {
       height="31"
       fill="none"
       viewBox="0 0 30 31"
+      onClick={onclick}
+      className={className}
     >
       <path
         fill="#C3CAD9"

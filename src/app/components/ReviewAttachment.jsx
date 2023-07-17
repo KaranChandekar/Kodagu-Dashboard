@@ -7,11 +7,15 @@ import Close from "../svg/Navigation/Close";
 
 const ReviewAttachment = () => {
   return (
-    <div className="mb-3 p-4 bg-white rounded-md shadow">
-      <div className="flex items-center justify-between mb-7">
+    <div className="mb-3 p-4 bg-white rounded-md shadow w-[230px]">
+      <div className="flex items-center justify-between gap-3 mb-7">
         <div className="flex items-center gap-2">
-            <Close />
-            <input type="text" placeholder="Task name or Type" className="text-xs text-gray-blue-80 font-bold outline-none border-none text-inherit" />
+          <Close />
+          <input
+            type="text"
+            placeholder="Task name or Type"
+            className="text-xs text-gray-blue-80 font-bold outline-none border-none text-inherit w-full"
+          />
         </div>
         <AvatarImg image={Avatar5} className="w-[20px] h-[20px]" />
       </div>

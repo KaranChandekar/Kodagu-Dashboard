@@ -6,10 +6,11 @@ import Content2 from "../images/Avatar/Content2.png";
 import Task from "./Task";
 import TaskAttachment from "./TaskAttachment";
 import ReviewAttachment from "./ReviewAttachment";
+import StickyCard from "./StickyCard";
 
 const Hero = () => {
   return (
-    <div className="border-2 border-gray-blue-95 rounded-2xl mt-6">
+    <div className="border-2 border-gray-blue-95 rounded-2xl my-6 pb-8 relative">
       <HeroHead />
 
       <div className="flex gap-7 mt-10 px-6">
@@ -50,12 +51,13 @@ const Hero = () => {
           <ContentImgCard img={Content2} title="Global Resorts Network" />
           <Task className="mb-3 shadow rounded" title="Development Apps" />
           <Task className="mb-3 shadow rounded" title="Copper Canyon">
-            <TaskAttachment />
+            <TaskAttachment isAlert="true" />
           </Task>
           <button className="text-xs text-gray-blue-60 font-bold uppercase p-2">
             + new task
           </button>
         </div>
+
         <div>
           <ContentHead title="review" color="bg-yellow" />
           <Task
@@ -68,10 +70,13 @@ const Hero = () => {
           />
           <ReviewAttachment />
         </div>
+
         <div>
           <ContentHead title="done" color="bg-green" />
           <Task className="mb-3 shadow rounded" title="Copper Canyon" />
         </div>
+
+        <StickyCard />
       </div>
     </div>
   );
