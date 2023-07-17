@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import IconBtn from "./components/IconBtn";
 import Navbar from "./components/Navbar";
 import Navigator from "./components/Navigator";
@@ -45,6 +46,7 @@ export default function Home() {
       <main className="mt-[96px] max-w-[1600px] mx-auto px-6 flex justify-between">
         <Navigator />
         <Sidebar />
+        <Hero />
       </main>
     </>
   );

@@ -1,4 +1,4 @@
-function MoreHoriz({ className }) {
+function ChevronRight() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,16 +6,15 @@ function MoreHoriz({ className }) {
       height="31"
       fill="none"
       viewBox="0 0 30 31"
-      className={className}
     >
       <path
         fill="#C3CAD9"
         fillRule="evenodd"
-        d="M9 13.5c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+        d="M12.293 9.794a.996.996 0 000 1.41l3.88 3.88-3.88 3.88a.996.996 0 101.41 1.41l4.59-4.59a.996.996 0 000-1.41l-4.59-4.59c-.38-.38-1.02-.38-1.41.01z"
         clipRule="evenodd"
       ></path>
     </svg>
   );
 }
 
-export default MoreHoriz;
+export default ChevronRight;
