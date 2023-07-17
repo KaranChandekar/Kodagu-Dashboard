@@ -19,10 +19,11 @@ const SidebarHead = ({ className }) => {
       <div className="w-[130px] h-[130px] flex items-center justify-center relative mb-7 cursor-pointer">
         <Image
           className="w-[110px] h-[110px] bg-yellow bg-opacity-10 rounded-full"
+          alt="user"
           src={UserAvatar}
         />
-        <Image className="absolute top-0 left-0" src={Base} />
-        <Image className="absolute top-0 left-0" src={Line} />
+        <Image className="absolute top-0 left-0" src={Base} alt="avatar" />
+        <Image className="absolute top-0 left-0" src={Line} alt="avatar" />
         <span className="w-8 h-8 bg-blue text-white font-extrabold text-xs rounded-full flex items-center justify-center absolute -right-[15px]">
           2
         </span>
