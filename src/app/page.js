@@ -1,5 +1,6 @@
 import IconBtn from "./components/IconBtn";
 import Navbar from "./components/Navbar";
+import Navigator from "./components/Navigator";
 import AccountCircle from "./svg/Action/AccountCircle";
 import Search from "./svg/Action/Search";
 import ArrowRight from "./svg/Hardware/ArrowRight";
@@ -10,7 +11,7 @@ import Notifications from "./svg/Social/Notifications";
 export default function Home() {
   return (
     <>
-      <header className="max-w-[1600px] mx-auto p-6 flex items-center justify-between cursor-default">
+      <header className="max-w-[1600px] mx-auto px-6 h-24 flex items-center justify-between cursor-default border-b-2 border-gray-blue-95">
         <div className="flex items-center gap-5">
           <IconBtn icon={<Menu />} />
           <h2 className="text-lg font-bold text-gray-blue-50">Constructor</h2>
@@ -40,7 +41,9 @@ export default function Home() {
         </div>
       </header>
 
-      <main></main>
+      <main className="h-[calc(100vh_-_var(--navbar-height,96px))] w-full px-6 flex">
+        <Navigator />
+      </main>
     </>
   );
 }
