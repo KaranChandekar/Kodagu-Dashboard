@@ -14,7 +14,7 @@ import AvatarImg from "./AvatarImg";
 
 const Navigator = () => {
   return (
-    <div className="flex flex-col justify-between h-full relative border-r-2 border-b-gray-blue-95 pr-4 py-6">
+    <div className="flex flex-col justify-between  min-h-[calc(100vh_-_96px)] relative border-r-2 border-b-gray-blue-95 pr-4 py-6">
       <div className="flex flex-col gap-3">
         <IconBtn icon={<Explore />} />
         <IconBtn icon={<Star />} />
