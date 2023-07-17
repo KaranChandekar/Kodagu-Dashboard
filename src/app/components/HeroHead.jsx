@@ -9,8 +9,8 @@ import HeroNavLink from "./HeroNavLink";
 
 const HeroHead = () => {
   return (
-    <div className="px-6 pt-6 flex justify-between gap-16 border-b-2 border-gray-blue-95">
-      <nav className="flex justify-between gap-5">
+    <div className="px-2 md:px-6 pt-6 flex justify-between gap-16 border-b-2 border-gray-blue-95">
+      <nav className="flex justify-between gap-5 w-full overflow-x-scroll md:w-auto">
         <HeroNavLink icon={<PlaylistAddCheck />} title="List Tasks" />
         <HeroNavLink
           icon={<Dashboard active="true" />}
@@ -22,7 +22,7 @@ const HeroHead = () => {
         <HeroNavLink icon={<Menu />} title="Timeline" />
         <HeroNavLink icon={<TrendingUp />} title="Activity" />
       </nav>
-      <div className="px-4 py-3 rounded-[30px] w-[200px] bg-white flex items-center gap-32 shadow-sm mb-6">
+      <div className="px-4 py-3 rounded-[30px] w-[200px] bg-white hidden md:flex items-center gap-32 shadow-sm mb-6">
         <div className="flex items-center gap-2">
           <Search />
           <input

@@ -14,7 +14,7 @@ import ColorDot from "../svg/Navigation/ColorDot";
 
 const StickyCard = () => {
   return (
-    <div className="absolute bottom-10 right-10">
+    <div className="absolute bottom-10 right-10 hidden md:block">
       <div className="rounded-xl bg-white shadow-sm w-[450px] text-gray-blue-50 font-bold relative">
         <ColorDot
           color="#33BFFF"

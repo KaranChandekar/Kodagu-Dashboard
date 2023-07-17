@@ -13,15 +13,17 @@ import Notifications from "./svg/Social/Notifications";
 export default function Home() {
   return (
     <>
-      <header className="max-w-[1600px] mx-auto px-6 h-24 flex items-center justify-between cursor-default border-b-2 border-gray-blue-95 fixed top-0 left-0 right-0 bg-gray-blue-98 z-10">
+      <header className="max-w-[1600px] mx-auto px-2 md:px-6 h-24 flex items-center justify-between cursor-default border-b-2 border-gray-blue-95 fixed top-0 left-0 right-0 bg-gray-blue-98 z-10">
         <div className="flex items-center gap-5">
           <IconBtn icon={<Menu />} />
           <h2 className="text-lg font-bold text-gray-blue-50">Constructor</h2>
         </div>
 
+        <IconBtn icon={<AccountCircle />} />
+
         <Navbar />
 
-        <div className="px-5 py-3 rounded-[30px] bg-white flex items-center gap-32 shadow-sm">
+        <div className="px-5 py-3 rounded-[30px] bg-white hidden md:flex items-center gap-32 shadow-sm">
           <div className="flex items-center gap-2">
             <Search />
             <input
@@ -33,7 +35,7 @@ export default function Home() {
           <ArrowRight className="cursor-pointer" />
         </div>
 
-        <div className="flex items-center">
+        <div className="hidden md:flex items-center">
           <AccountCircle />
           <span className="text-sm text-gray-blue-60 font-bold ml-2 mr-8">
             Clayton Santos
@@ -43,7 +45,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="mt-[96px] max-w-[1600px] mx-auto px-6 flex justify-between">
+      <main className="mt-[96px] max-w-[1600px] mx-auto px-2 md:px-6 flex justify-between">
         <Navigator />
         <Sidebar />
         <Hero />

@@ -3,7 +3,7 @@ import MoreHoriz from "../svg/Navigation/MoreHoriz";
 
 const Navbar = () => {
   return (
-    <nav className="text-xs font-bold text-gray-blue-70 flex items-center justify-center gap-6">
+    <nav className="hidden text-xs font-bold text-gray-blue-70 md:flex items-center justify-center gap-6">
       <Link href="/">Dashboard</Link>
       <Link href="/">About Us</Link>
       <Link href="/">News</Link>

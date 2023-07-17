@@ -10,10 +10,10 @@ import StickyCard from "./StickyCard";
 
 const Hero = () => {
   return (
-    <div className="border-2 border-gray-blue-95 rounded-2xl my-6 pb-8 relative">
+    <div className="border-2 border-gray-blue-95 rounded-2xl my-6 pb-8 relative w-[360px] md:w-auto overflow-hidden">
       <HeroHead />
 
-      <div className="flex gap-7 mt-10 px-6">
+      <div className="flex gap-7 mt-10 px-6 w-[360px] md:w-auto overflow-x-scroll">
         <div>
           <ContentHead title="to do" color="bg-purple" />
           <ContentImgCard img={Content1} title="make money online through" />
