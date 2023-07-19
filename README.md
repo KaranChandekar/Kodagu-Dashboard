@@ -25,6 +25,8 @@ The Kodagu Dashboard is a project I developed as part of the internship hiring p
 
 ## 📸 Screenshots
 
+![Screenshot_20230719_090205](https://github.com/KaranChandekar/Kodagu-Dashboard/assets/93200960/ed242d9b-0ee7-4d83-b7ae-85b93741a3b0)
+
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
