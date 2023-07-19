@@ -33,7 +33,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
-For any inquiries or feedback, please feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or feedback, please feel free to reach out to me at [karanchandekar431@gmail.com](mailto:karanchandekar431@gmail.com).
 
 ## 🌟 Thank You
 
